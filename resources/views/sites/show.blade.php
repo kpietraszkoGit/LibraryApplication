@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title') {{$site->title}} - Book @endsection
-<!--@section('title', 'Dodawanie strony') tak lub tak jest dobrze-->
+
 @section('content')
 
 <div class="mainTitleSubpage">Show the book</div>
