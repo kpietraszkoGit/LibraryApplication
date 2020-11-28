@@ -24,15 +24,15 @@ class PagesRequest extends FormRequest
     public function rules()
     {
         return [
-            'title' => 'required|max:255',//pole jest wymagane i nie moze mieć więcej niż 255 znaków
-            'description' => 'required'//pole jest tylko wymagane
+            'title' => 'required|max:255',
+            'description' => 'required'
         ];
     }
 
     public function messages()
     {
         return [
-            'title.required' => 'The title field is required and cannot contain more than 255 characters.',//zmiana na polski język i swój opis
+            'title.required' => 'The title field is required and cannot contain more than 255 characters.',
             'description.required' => 'The content field is required.'
         ];
     }
