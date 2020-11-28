@@ -1,0 +1,40 @@
+.deleteRow{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.description{
+    font-size: 16px;
+    padding: 16px;
+    border: 1px dotted #666161;
+    border-radius: 12px;
+}
+
+.mainTitlePage{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 10px 0 0 0;
+    border-bottom: 2px solid #de1010;
+}
+
+.mainTitleSubpage{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 10px 0 16px 0;
+    border-bottom: 2px solid #de1010;
+}
+
+.column{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.w-5{
+    display: none;
+}
