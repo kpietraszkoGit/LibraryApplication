@@ -1,13 +1,12 @@
 @extends('layouts.app')
 
-<!--@section('title', 'Add a book') tak lub tak jest dobrze-->
 @section('title') Add a book @endsection
 
 @section('content')
 
     <div class="mainTitleSubpage">Add a book</div>
-    <form action="{{route('sites.save')}}" method="post"> <!--można też tak zrobić /save -->
-    <!--walidacja formularza, ogólnie walidacja znajduje się w pliku PagesRequest.php-->
+    <form action="{{route('sites.save')}}" method="post">
+
     @if ($errors->any())
         <ul class="alert alert-danger">
             @foreach ($errors->all() as $error)
