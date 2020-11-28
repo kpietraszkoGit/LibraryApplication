@@ -1,13 +1,12 @@
 @extends('layouts.app')
 
-<!--@section('title', 'Editing a book') tak lub tak jest dobrze-->
 @section('title') Editing a book @endsection
 
 @section('content')
 
     <div class="mainTitleSubpage">Edit the book</div>
     <form action="{{route('sites.update', $site)}}" method="post">
-        <!--walidacja formularza, ogólnie walidacja znajduje się w pliku PagesRequest.php-->
+
         @if ($errors->any())
             <ul class="alert alert-danger">
                 @foreach ($errors->all() as $error)
