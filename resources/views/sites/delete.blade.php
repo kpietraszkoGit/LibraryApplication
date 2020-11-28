@@ -1,6 +1,5 @@
 @extends('layouts.app')
 
-<!--@section('title', 'Removing books') tak lub tak jest dobrze-->
 @section('title') Removing books @endsection
 
 @section('content')
