@@ -8,7 +8,7 @@
 </p>
 
 ## About Application
-It is a simple application to add, edit, delete e.g. books/journals to MySQL database designed in Laravel. You can register there and log in then you can create your own library.
+It is a simple application to add, edit, delete e.g. books/journals to MySQL database designed in Laravel 8. You can register there and log in then you can create your own library.
 
 ## About Laravel
 
